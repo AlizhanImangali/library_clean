@@ -110,3 +110,21 @@
 {"level":"info","ts":1681725042.710057,"caller":"app/app.go:68","msg":"Server started on http://localhost:8080"}
 {"level":"warn","ts":1681725282.538338,"caller":"app/logger.go:36","msg":"Logger sync fail","error":"sync /dev/stdout: inappropriate ioctl for device"}
 {"level":"info","ts":1681725282.668243,"caller":"app/app.go:68","msg":"Server started on http://localhost:8080"}
+{"level":"warn","ts":1681886561.294464,"caller":"app/logger.go:36","msg":"Logger sync fail","error":"sync /dev/stdout: inappropriate ioctl for device"}
+{"level":"info","ts":1681886561.3790588,"caller":"app/app.go:68","msg":"Server started on http://localhost:8080"}
+{"level":"warn","ts":1681987745.930812,"caller":"app/logger.go:36","msg":"Logger sync fail","error":"sync /dev/stdout: The handle is invalid."}
+{"level":"info","ts":1681987746.245635,"caller":"app/app.go:68","msg":"Server started on http://localhost:8080"}
+{"level":"warn","ts":1681987982.4010866,"caller":"app/logger.go:36","msg":"Logger sync fail","error":"sync /dev/stdout: The handle is invalid."}
+{"level":"info","ts":1681987982.5512824,"caller":"app/app.go:68","msg":"Server started on http://localhost:8080"}
+{"level":"warn","ts":1681990573.363824,"caller":"app/logger.go:36","msg":"Logger sync fail","error":"sync /dev/stdout: The handle is invalid."}
+{"level":"info","ts":1681990573.5688264,"caller":"app/app.go:68","msg":"Server started on http://localhost:8080"}
+{"level":"warn","ts":1681990898.3241472,"caller":"app/logger.go:36","msg":"Logger sync fail","error":"sync /dev/stdout: The handle is invalid."}
+{"level":"info","ts":1681990898.5286012,"caller":"app/app.go:68","msg":"Server started on http://localhost:8080"}
+{"level":"warn","ts":1681990988.5273972,"caller":"app/logger.go:36","msg":"Logger sync fail","error":"sync /dev/stdout: The handle is invalid."}
+{"level":"info","ts":1681991045.2323785,"caller":"app/app.go:68","msg":"Server started on http://localhost:8080"}
+{"level":"warn","ts":1681991072.988075,"caller":"app/logger.go:36","msg":"Logger sync fail","error":"sync /dev/stdout: The handle is invalid."}
+{"level":"info","ts":1681991101.5400333,"caller":"app/app.go:68","msg":"Server started on http://localhost:8080"}
+{"level":"warn","ts":1681991103.6354082,"caller":"app/logger.go:36","msg":"Logger sync fail","error":"sync /dev/stdout: The handle is invalid."}
+{"level":"info","ts":1681991129.3577862,"caller":"app/app.go:68","msg":"Server started on http://localhost:8080"}
+{"level":"warn","ts":1681991151.6264257,"caller":"app/logger.go:36","msg":"Logger sync fail","error":"sync /dev/stdout: The handle is invalid."}
+{"level":"info","ts":1681991151.7312355,"caller":"app/app.go:68","msg":"Server started on http://localhost:8080"}

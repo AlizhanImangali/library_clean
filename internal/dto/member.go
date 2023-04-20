@@ -3,19 +3,19 @@ package dto
 import "bibliotekaProject/internal/entity"
 
 type MemberRequest struct {
-	ID            string `db:"id"`
-	Name          string `db:"name"`
-	Lastname      string `db:"lastname"`
-	BorrowedBooks string `db:"borrowed_books"`
-	MemberIdBooks string `db:"member_id_books"`
+	ID            string `json:"id"`
+	Name          string `json:"name"`
+	Lastname      string `json:"lastname"`
+	BorrowedBooks string `json:"borrowed_books"`
+	MemberIdBooks string `json:"member_id_books"`
 }
 
 type MemberResponse struct {
-	ID            string `db:"id"`
-	Name          string `db:"name"`
-	Lastname      string `db:"lastname"`
-	BorrowedBooks string `db:"borrowed_books"`
-	MemberIdBooks string `db:"member_id_books"`
+	ID            string `json:"id"`
+	Name          string `json:"name"`
+	Lastname      string `json:"lastname"`
+	BorrowedBooks string `json:"borrowed_books"`
+	MemberIdBooks string `json:"member_id_books"`
 }
 
 func ParseFromMember(src entity.Member) (dst MemberResponse) {

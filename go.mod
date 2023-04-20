@@ -1,9 +1,10 @@
 module bibliotekaProject
 
-go 1.20
+go 1.18
 
 require (
 	github.com/gin-gonic/gin v1.9.0
+	github.com/go-playground/validator/v10 v10.12.0
 	github.com/golang-migrate/migrate/v4 v4.15.2
 	github.com/hellofresh/health-go/v5 v5.1.1
 	github.com/jmoiron/sqlx v1.3.5
@@ -25,7 +26,6 @@ require (
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
-	github.com/go-playground/validator/v10 v10.12.0 // indirect
 	github.com/goccy/go-json v0.10.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect

@@ -128,7 +128,7 @@ func (s *MemberRepository) prepareArgs(data entity.Member) (sets []string, args 
 
 	if data.BorrowedBooks != nil {
 		args = append(args, data.BorrowedBooks)
-		sets = append(sets, fmt.Sprintf("specialization=$%d", len(args)))
+		sets = append(sets, fmt.Sprintf("borrowed_books=$%d", len(args)))
 	}
 
 	return

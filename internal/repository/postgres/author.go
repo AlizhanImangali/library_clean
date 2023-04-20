@@ -1,13 +1,12 @@
 package postgres
 
 import (
+	"bibliotekaProject/internal/entity"
 	"context"
 	"fmt"
 	"github.com/jmoiron/sqlx"
 	"strings"
 	"time"
-
-	"bibliotekaProject/internal/entity"
 )
 
 type AuthorRepository struct {
